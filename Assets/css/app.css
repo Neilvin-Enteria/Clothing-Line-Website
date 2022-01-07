@@ -5,8 +5,8 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     color: #5a5a5a;
 }
 
@@ -170,34 +170,23 @@ body {
    * Dummy devices (replace them with your own or something else entirely!)
    */
 
-.product-device {
+.model {
     position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
-    background-color: #333;
+    right: 1%;
+    bottom: 40%;
+    width: 30%;
+    height: 20%;
     border-radius: 21px;
-    transform: rotate(30deg);
+    transform: rotate(10deg);
 }
 
-.product-device::before {
+.model::before {
     position: absolute;
     top: 10%;
     right: 10px;
     bottom: 10%;
     left: 10px;
-    content: "";
-    background-color: rgba(255, 255, 255, .1);
     border-radius: 5px;
-}
-
-.product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #e5e5e5;
 }
 
 
